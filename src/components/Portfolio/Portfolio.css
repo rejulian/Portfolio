@@ -1,0 +1,89 @@
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.flex img{
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #404040;
+}
+
+.flex img:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.flex-reverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+
+.flex-reverse img{
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #404040;
+}
+
+.flex-reverse img:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.flex p{
+    font-size: 18px;
+    max-width: 550px;
+    text-align: center;
+}
+
+.flex-reverse p{
+    font-size: 18px;
+    max-width: 500px;
+    text-align: center;
+}
+
+@media (max-width:1050px){
+    .flex{
+        flex-direction: column;
+    }
+    
+    .flex p{
+        font-size: 16px;
+    }
+
+    .flex img{
+        margin-bottom: 20px;
+    }
+
+    .flex-reverse{
+        flex-direction: column;
+    }
+
+    .flex-reverse p{
+        font-size: 16px;
+    }
+
+    .flex-reverse img{
+        margin-bottom: 20px;
+    }
+
+    @media (max-width:380px){
+
+        .flex-reverse img{
+            width: 290px;
+        }
+
+        .flex img{
+            width: 290px;
+        } 
+    }
+
+}
