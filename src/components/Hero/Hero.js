@@ -12,7 +12,7 @@ const Hero = () => {
               <a data-aos="fade-up" className={styles.btn} href="https://api.whatsapp.com/send?phone=3364631393" target="_blank" rel="noreferrer">Contactame</a>
           </div>
           <div>
-              <img data-aos="fade-up" className={styles.heroImg} src="https://res.cloudinary.com/tuko/image/upload/v1664326406/portfolio/WhatsApp_Image_2022-09-27_at_7.08.37_PM_uldrru.jpg" alt="Hero" />
+              <img data-aos="fade-up" className={styles.heroImg} src="https://res.cloudinary.com/tuko/image/upload/v1664456492/portfolio/HeroCrop_wjcwef.jpg" alt="Hero" />
           </div>          
         </div>
         <div className={styles.arrow} data-aos="fade-up">
