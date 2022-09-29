@@ -9,6 +9,7 @@ const Hero = () => {
               <h5 data-aos="fade-up">Hola, soy</h5>
               <h1 data-aos="fade-up">Julian Re</h1>
               <p data-aos="fade-up"><span>Frontend Developer</span></p>
+              <a data-aos="fade-up" className={styles.btn} href="julian-re-curriculum.pdf" target="_blank" rel="noreferrer">CV</a>
               <a data-aos="fade-up" className={styles.btn} href="https://api.whatsapp.com/send?phone=3364631393" target="_blank" rel="noreferrer">Contactame</a>
           </div>
           <div>
