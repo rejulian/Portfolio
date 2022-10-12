@@ -44,6 +44,30 @@
     align-items: center;
 }
 
+.whatsappContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+
+.btnWSP{
+    padding: 15px 100px;
+    background-color: rgb(33, 230, 33);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+}
+
+.btnWSP:hover{
+    background-color: rgb(115, 245, 115);
+    transition: 0.5s;
+}
+
 @media(max-width: 480px){
     .logo span{
         margin: 30px 70px 10px;

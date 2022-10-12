@@ -1,5 +1,4 @@
 import React from 'react'
-import Form from '../Form/Form'
 import styles from './Contact.module.css'
 import LogoContact from './LogoContact'
 
@@ -16,7 +15,11 @@ const Contact = () => {
                 <LogoContact logo="phone_in_talk" info="+54 3364 631393"/>
                 <LogoContact logo="mail" info="julianre2021@gmail.com"/>
         </div>
-        <Form/>
+        {/* <Form/> */}
+        <div className={styles.whatsappContainer}>
+            <img style={{width:'50px',position:'absolute', zIndex:'10',left:'55px'}} src="https://res.cloudinary.com/tuko/image/upload/v1665585421/portfolio/whatsapp-black-logo-icon_al4nc7.png" alt="" />
+            <a data-aos="fade-up" className={styles.btnWSP} href="https://api.whatsapp.com/send?phone=3364631393" target="_blank" rel="noreferrer">Contactame</a>
+        </div>
     </section>
   ) 
 }
